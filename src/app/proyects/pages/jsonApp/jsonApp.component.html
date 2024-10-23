@@ -1,0 +1,14 @@
+<div class="flex flex-col lg:flex-row">
+  <app-sidebar  
+  [title]="'Json App.'" 
+  [description]="'Esta aplicación permite cargar archivos JSON y convertirlos en interfaces TypeScript con un solo clic. Los usuarios pueden ingresar datos directamente o subir archivos, y tienen la opción de copiar o descargar las interfaces generadas para integrarlas en sus proyectos.'"
+  [navigation]="navigation" 
+  [tecnologies]="tecnologies"></app-sidebar>
+
+<!-- Contenido principal -->
+<div class="flex-1 lg:ml-72 px-6 md:p-5 h-full bg-secondary">
+    <app-sectionMainJson></app-sectionMainJson>
+    <app-sectionFunctionalities></app-sectionFunctionalities>
+  <app-btnBack></app-btnBack>
+</div>
+</div>

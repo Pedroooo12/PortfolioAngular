@@ -1,0 +1,26 @@
+<section class="px-5 py-10 md:px-10 md:py-24 xl:px-36 text-white bg-black">
+  <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center">
+    <div>
+      <h2 class="secondaryTitle bg-highlight3 p-12 text-center  bg-center bg-10%">
+        Portfolio
+      </h2>
+    </div>
+    <div class="lg:pb-20 flex flex-col gap-10 md:gap-20 lg:gap-[400px] xl:gap-[150px]">
+      <app-proyect
+      [title]="'Todo App'" 
+      [image]="'/assets/proyectoTodo.png'" 
+      [description]="'Esta aplicación permite gestionar tareas de manera eficiente. <br> Incluye funcionalidades como sistema de autentificación, asegurando que los usuarios puedan acceder de forma segura. <br> Los usuarios pueden realizar operaciones CRUD (crear, leer, actualizar y eliminar) sobre tareas y categorías, además de contar con opciones de filtrado y búsqueda para facilitar la organización y demás funcionalidades.'"
+      [href_github]="'https://github.com/Pedroooo12/ToDoApp'"
+      [href_url]="'/proyect/to-do'"
+      [tecnologies]="tecnologiesTodo"></app-proyect>
+      <app-proyect 
+      [title]="'Json App'" 
+      [image]="'/assets/proyectoJson.png'" 
+      [href_proyect]="'https://appjson.netlify.app/'"
+      [href_url]="'/proyect/json-app'"
+      [description]="'Desarrollé una aplicación que convierte archivos JSON en interfaces TypeScript de forma automática, permitiendo al usuario cargar archivos o escribir el JSON directamente. <br> La herramienta genera las interfaces correspondientes, que pueden copiarse o descargarse con un nombre personalizado, agilizando el proceso de creación de tipados en TypeScript para desarrolladores.'"
+      [href_github]="'https://github.com/Pedroooo12/AppJSON'"
+      [tecnologies]="tecnologiesJson"></app-proyect>
+    </div>
+  </div>
+</section>

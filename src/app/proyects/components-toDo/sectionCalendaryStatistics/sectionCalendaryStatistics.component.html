@@ -1,0 +1,33 @@
+<section id="calendario_estadisticas"  class="w-full xl:w-1/2 mb-10 md:mb-20 mx-auto">
+  <app-carrousel [images]="[
+    '/assets/todo/calendarioGrande.png', 
+    '/assets/todo/calendarioTareas.png', 
+    '/assets/todo/calendarioMensual.png', 
+    '/assets/todo/estadisticas1.png', 
+    '/assets/todo/estadisticas2.png']"></app-carrousel>
+  <h2 class="text-3xl md:text-4xl font-semibold font-pt-serif mt-5 mb-2">Calendario y estadísticas.</h2>
+  <p>
+    En esta sección de la aplicación, se implementan las funciones básicas de un <b>CRUD (Crear, Leer, Actualizar, Eliminar)</b>, esenciales para la gestión de datos.
+  </p>
+  <h3 class="text-2xl font-semibold font-pt-serif mt-5 mb-2">Calendario:</h3>
+  <ul class="list-disc ms-5">
+    <li>
+      <p><b>Integración:</b> Utiliza Fullcalendar para gestionar y visualizar las tareas.</p>
+    </li>
+    <li>
+      <p><b>Visualización de tareas:</b> Las tareas se presentan en el calendario, y aquellas que están tachadas indican que han sido completadas. Esto permite a los usuarios identificar rápidamente qué tareas han finalizado.</p>
+    </li>
+  </ul>
+  <h3 class="text-2xl font-semibold font-pt-serif mt-5 mb-2">Estadísticas:</h3>
+  <ul class="list-disc ms-5">
+    <li>
+      <p><b>Análisis del usuario:</b> Esta sección ofrece un análisis detallado de las estadísticas del usuario, proporcionando información sobre su rendimiento.</p>
+    </li>
+    <li>
+      <p><b>Recomendaciones:</b> Basadas en las puntuaciones del usuario, se ofrecen sugerencias personalizadas para mejorar su desempeño.</p>
+    </li>
+    <li>
+      <p><b>Gráficos:</b> Los datos se presentan en forma de gráficos, que pueden ser convertidos a porcentajes o mostrarse como números absolutos. Esto brinda flexibilidad en la interpretación de la información.</p>
+    </li>
+  </ul>
+</section>

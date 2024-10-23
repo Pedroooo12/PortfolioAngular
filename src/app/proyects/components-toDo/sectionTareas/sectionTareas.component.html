@@ -1,0 +1,27 @@
+<section id="crudTareas"  class="w-full xl:w-1/2 mx-auto">
+  <app-carrousel [images]="[
+    '/assets/todo/crearTarea.png', 
+    '/assets/todo/leerTarea.png', 
+    '/assets/todo/modificarTarea.png', 
+    '/assets/todo/tareaModificada.png', 
+    '/assets/todo/eliminarTarea.png']"></app-carrousel>
+  <h2 class="text-3xl md:text-4xl font-semibold font-pt-serif mt-5 mb-2">Crud de Tareas.</h2>
+  <p>
+    En esta sección de la aplicación, se implementan las funciones básicas de un <b>CRUD (Crear, Leer, Actualizar, Eliminar)</b>, esenciales para la gestión de datos. Además cada tarea tiene un campo de creación y actualización para poder colocarlos en el calendario según el día que se creó o acutalizó.
+  </p>
+  <h3 class="text-2xl font-semibold font-pt-serif mt-5 mb-2">¿Cómo crear tareas?</h3>
+  <ul class="list-disc ms-5">
+    <li>
+      <p><b>Botón de Añadir:</b> Los usuarios pueden crear una nueva tarea haciendo clic en el botón de "más", lo que automáticamente la ubicará en la columna "Hacer".</p>
+    </li>
+    <li>
+      <p><b>Listado de Tareas:</b> Alternativamente, los usuarios pueden acceder al listado de tareas y seleccionar en qué columna desean colocar la nueva tarea: "Hacer", "Haciendo" o "Hecha".</p>
+    </li>
+  </ul>
+  <h3 class="text-2xl font-semibold font-pt-serif mt-5 mb-2">Funcionalidades del CRUD:</h3>
+  <p>Las mismas mostradas anteriormente para el crud de categorías.</p>
+  <h3 class="text-2xl font-semibold font-pt-serif mt-5 mb-2">Sistema de Alertas:</h3>
+  <p>Las mismas mostradas anteriormente para el crud de categorías.</p>
+  <h3 class="text-2xl font-semibold font-pt-serif mt-5 mb-2">Relaciónes:</h3>
+  <p>Cada tarea está vinculada a un usuario específico, lo que asegura que los registros se gestionen de manera individual y segura, mejorando así la privacidad de los datos. Además,<b> cada tarea se clasifica según su nivel de importancia</b>, lo que facilita una gestión más efectiva y priorizada de las actividades.</p>
+</section>

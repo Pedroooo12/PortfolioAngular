@@ -1,0 +1,43 @@
+<!-- Sidebar -->
+<div class="lg:w-72 w-full bg-black text-white shadow-lg lg:fixed lg:h-full">
+  <div class="p-5" >
+    <div id="div_flex" class="flex justify-between items-center">
+      <h1 class="text-3xl font-pt-serif font-bold w-fit text-white lg:mb-5">
+        {{title}}
+      </h1>
+      <a (click)="toggleMenu()" class="cursor-pointer lg:hidden">
+        <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 6H6m12 4H6m12 4H6m12 4H6"/>
+        </svg>            
+      </a>
+    </div>
+      <div id="menu" class="hidden lg:block mt-5 lg:mt-0">
+        <h3 class="text-2xl font-pt-serif font-bold mb-2">Descripción.</h3>
+        <p>
+          {{description}}
+        </p>
+        <h3 class="text-xl font-pt-serif font-bold mb-2 mt-5">Navegación.</h3>
+
+        <ul class="list-disc ms-5">
+          <li *ngFor="let item of navigation">
+            <a (click)="scrollTo(item.url)" class="cursor-pointer" >
+              {{item.name}}
+            </a>
+          </li>
+        </ul>
+        <h3 class="text-lg font-pt-serif font-bold mt-5 mb-2">Tecnologías.</h3>
+
+        <div class="flex gap-2 flex-col">
+          <div *ngFor="let tecnology of tecnologies" [ngClass]="tecnology.color" class="badge w-fit h-fit text-white font-semibold text-sm  py-1 px-3 rounded-full">
+            {{tecnology.name}}
+          </div>
+        </div>
+        <h2 class="text-lg font-pt-serif font-bold mt-5 mb-2" *ngIf="implementation">Implementaciones.</h2>
+
+        <div class="flex gap-2 flex-col" *ngIf="implementation">
+          <div *ngFor="let tecnology of implementation" [ngClass]="tecnology.color" class="badge w-fit h-fit text-white font-semibold text-sm  py-1 px-3 rounded-full">
+            {{tecnology.name}}
+          </div>
+        </div>
+      </div>
+  </div>

@@ -1,0 +1,33 @@
+<section id="funcionalidades"  class="w-full my-10 md:my-20 xl:w-1/2 mx-auto">
+  <app-carrousel [images]="[
+    '/assets/todo/crearTarea.png', 
+    '/assets/todo/leerTarea.png', 
+    '/assets/todo/modificarTarea.png', 
+    '/assets/todo/tareaModificada.png', 
+    '/assets/todo/eliminarTarea.png']"></app-carrousel>
+  <h2 class="text-3xl md:text-4xl font-semibold font-pt-serif mt-5 mb-2">Funcionalidades.</h2>
+  <p>
+    Incluye diversas funcionalidades para mejorar la organización y gestión de tareas. Este sistema permite a los usuarios interactuar de manera eficiente con sus listas de tareas.
+  </p>
+  <h3 class="text-2xl font-semibold font-pt-serif mt-5 mb-2">Navegación Intuitiva:</h3>
+  <p>Implementación de flechas hacia arriba y hacia abajo en cada columna para <b>clasificar las tareas según su nivel de importancia</b>, facilitando la priorización.</p>
+  <h3 class="text-2xl font-semibold font-pt-serif mt-5 mb-2">Arrastrar y Soltar:</h3>
+  <p>Funcionalidad de arrastrar y soltar que permite <b>mover tareas entre columnas</b>. Los cambios se guardan automáticamente y <b>se mantienen incluso al refrescar la página</b>. Esta funcionalidad la he incluido mediante Angular Material.</p>
+  <h3 class="text-2xl font-semibold font-pt-serif mt-5 mb-2">Filtrado Avanzado:</h3>
+  <p>Opción para<b> filtrar tareas por categoría, nivel de importancia o una combinación de ambos,</b> permitiendo a los usuarios encontrar rápidamente lo que necesitan.</p>
+  <h3 class="text-2xl font-semibold font-pt-serif mt-5 mb-2">Finalización de Tareas:</h3>
+  <ul class="list-disc ms-5">
+    <li>
+      <p>
+        Opción para marcar tareas como "Hechas". Los usuarios pueden <b> finalizar tareas individualmente.</b>
+      </p>
+    </li>
+    <li>
+      <p>
+        Utilizar un icono para <b>completar todas las tareas</b> de una vez.
+      </p>
+    </li>
+  </ul>
+  <h3 class="text-2xl font-semibold font-pt-serif mt-5 mb-2">Buscador Dinámico:</h3>
+  <p>Un buscador que permite a los usuarios escribir cualquier letra, <b>mostrando un listado de tareas que coinciden en tiempo real.</b> La lista se actualiza automáticamente mientras se escribe, mejorando la accesibilidad y la rapidez en la búsqueda.</p>
+</section>

@@ -1,0 +1,17 @@
+<div class="flex flex-col lg:flex-row">
+    <app-sidebar 
+    [title]="'Todo App.'"
+    [description]="'Está inspirada en la versatilidad de Trello, ofrece una gama de funcionalidades clave para mejorar la gestión de proyectos. Está combinación de características proporciona a los usuarios una experiencia completa y flexible para organizar, priorizar y realizar un seguimiento efectivo de sus proyectos y tareas.
+    '" 
+    [navigation]="navigation" 
+    [tecnologies]="tecnologies" 
+    [implementation]="implementation"></app-sidebar>
+  <div class="flex-1 lg:ml-72 px-6 md:p-4 h-full bg-secondary">
+      <app-sectionLogin></app-sectionLogin>
+      <app-sectionCategories></app-sectionCategories>
+      <app-sectionTareas></app-sectionTareas>
+      <app-sectionFunctionality></app-sectionFunctionality>
+      <app-sectionCalendaryStatistics></app-sectionCalendaryStatistics>
+    <app-btnBack></app-btnBack>
+  </div>
+</div>
