@@ -14,12 +14,13 @@ import { JsonAppComponent } from './pages/jsonApp/jsonApp.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { SectionMainJsonComponent } from './components-json/sectionMainJson/sectionMainJson.component';
 import { SectionFunctionalitiesComponent } from './components-json/sectionFunctionalities/sectionFunctionalities.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
     CommonModule,
     ProyectsRoutes,
-
+    RouterModule
   ],
   declarations: [
     ProyectsComponent, 
