@@ -11,29 +11,13 @@ export class JsonAppComponent implements OnInit {
 
   navigation: NavigationProyect[] = [
     {
-      name: "Sistema login",
-      url: "login"
-    },
-    {
-      name: "Crud Categorías",
-      url: "crudCategorias"
-    },
-    {
-      name: "Crud tareas",
-      url: "crudTareas"
+      name: "Página principal",
+      url: "main"
     },
     {
       name: "Funcionalidades",
       url: "funcionalidades"
     },
-    {
-      name: "Calendario",
-      url: ""
-    },
-    {
-      name: "Estadísticas", 
-      url: ""
-    }
   ];
 
   tecnologies: Tecnology[] = [
