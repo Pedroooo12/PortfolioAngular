@@ -9,10 +9,12 @@ const routes: Routes = [
     component: ProyectsComponent,
     children: [
       {
+        title: 'ToDoApp',
         path: 'to-do',
         component: ToDoAppComponent
       },
       {
+        title: 'JsonApp',
         path: 'json-app',
         component: JsonAppComponent
       }

@@ -5,6 +5,7 @@ import { ProyectsComponent } from './proyects/proyects.component';
 
 const routes: Routes = [
   {
+    title: 'Inicio',
     path: '',
     component: HomeComponent
   },
