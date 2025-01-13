@@ -10,8 +10,8 @@ export class PortfolioComponent implements OnInit {
 
   tecnologiesTodo: Tecnology[] = [
     {
-      name: "#Angular",
-      color: "bg-red-700"
+      name: "#Angular16",
+      color: "bg-red-600"
     },
     {
       name: "#Tailwind",
@@ -29,14 +29,25 @@ export class PortfolioComponent implements OnInit {
 
   tecnologiesJson: Tecnology[] = [
     {
-      name: "#Angular",
-      color: "bg-red-700"
+      name: "#Angular16",
+      color: "bg-red-600"
     },
     {
       name: "#Tailwind",
       color: "bg-purple-700"
     }
   ];
+
+  tecnologiesCocktail: Tecnology[] = [
+    {
+      name: "#Angular19",
+      color: "bg-red-700"
+    },
+    {
+      name: "#Tailwind",
+      color: "bg-purple-700"
+    }
+  ]
 
   constructor() { }
 

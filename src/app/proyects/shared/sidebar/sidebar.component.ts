@@ -11,7 +11,7 @@ export class SidebarComponent implements OnInit {
 
   @Input() title!: string;
 
-  @Input() description!: string;
+  @Input() description?: string;
 
   @Input() navigation!: NavigationProyect[];
 

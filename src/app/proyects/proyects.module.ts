@@ -15,6 +15,17 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { SectionMainJsonComponent } from './components-json/sectionMainJson/sectionMainJson.component';
 import { SectionFunctionalitiesComponent } from './components-json/sectionFunctionalities/sectionFunctionalities.component';
 import { RouterModule } from '@angular/router';
+import { CocktailAppComponent } from './pages/cocktailApp/cocktailApp.component';
+import { IntroductionComponent } from './components-cocktail/introduction/introduction.component';
+import { SectionMainCocktailComponent } from './components-cocktail/section-main-cocktail/section-main-cocktail.component';
+import { SectionNameCocktailComponent } from './components-cocktail/section-name-cocktail/section-name-cocktail.component';
+import { SectionServicesCocktailComponent } from './components-cocktail/section-services-cocktail/section-services-cocktail.component';
+import { SectionAlcoholCocktailComponent } from './components-cocktail/section-alcohol-cocktail/section-alcohol-cocktail.component';
+import { SectionIngredientCocktailComponent } from './components-cocktail/section-ingredient-cocktail/section-ingredient-cocktail.component';
+import { SectionGlassCocktailComponent } from './components-cocktail/section-glass-cocktail/section-glass-cocktail.component';
+import { SectionRandomCocktailComponent } from './components-cocktail/section-random-cocktail/section-random-cocktail.component';
+import { SectionDrinkCocktailComponent } from './components-cocktail/section-drink-cocktail/section-drink-cocktail.component';
+import { SectionIntegrationCocktailComponent } from './components-cocktail/section-integration-cocktail/section-integration-cocktail.component';
 
 @NgModule({
   imports: [
@@ -23,6 +34,17 @@ import { RouterModule } from '@angular/router';
     RouterModule
   ],
   declarations: [
+    IntroductionComponent,
+    SectionMainCocktailComponent,
+    SectionNameCocktailComponent,
+    SectionServicesCocktailComponent,
+    SectionAlcoholCocktailComponent,
+    SectionIngredientCocktailComponent,
+    SectionGlassCocktailComponent,
+    SectionRandomCocktailComponent,
+    SectionDrinkCocktailComponent,
+    SectionIntegrationCocktailComponent,
+    CocktailAppComponent,
     ProyectsComponent, 
     ToDoAppComponent,
     BtnBackComponent,

@@ -22,8 +22,8 @@ export class JsonAppComponent implements OnInit {
 
   tecnologies: Tecnology[] = [
     {
-      name: "#Angular",
-      color: "bg-red-700"
+      name: "#Angular16",
+      color: "bg-red-600"
     },
     {
       name: "#Tailwind",

@@ -2,7 +2,7 @@
 <div class="lg:w-72 w-full bg-black text-white shadow-lg lg:fixed lg:h-full">
   <div class="p-5" >
     <div id="div_flex" class="flex justify-between items-center">
-      <h1 class="text-3xl font-pt-serif font-bold w-fit text-white lg:mb-5">
+      <h1 class="text-3xl font-pt-serif font-bold w-fit text-white">
         {{title}}
       </h1>
       <a (click)="toggleMenu()" class="cursor-pointer lg:hidden">
@@ -12,10 +12,12 @@
       </a>
     </div>
       <div id="menu" class="hidden lg:block mt-5 lg:mt-0">
-        <h3 class="text-2xl font-pt-serif font-bold mb-2">Descripción.</h3>
-        <p>
-          {{description}}
-        </p>
+        <div *ngIf="description">
+          <h3 class="text-2xl font-pt-serif font-bold mb-2 lg:mt-5">Descripción.</h3>
+          <p>
+            {{description}}
+          </p>
+        </div>
         <h3 class="text-xl font-pt-serif font-bold mb-2 mt-5">Navegación.</h3>
 
         <ul class="list-disc ms-5">

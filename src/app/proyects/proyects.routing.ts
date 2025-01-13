@@ -2,6 +2,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ToDoAppComponent } from './pages/toDoApp/toDoApp.component';
 import { ProyectsComponent } from './proyects.component';
 import { JsonAppComponent } from './pages/jsonApp/jsonApp.component';
+import { CocktailAppComponent } from './pages/cocktailApp/cocktailApp.component';
 
 const routes: Routes = [
   { 
@@ -17,6 +18,11 @@ const routes: Routes = [
         title: 'JsonApp',
         path: 'json-app',
         component: JsonAppComponent
+      },
+      {
+        title: 'CocktailApp',
+        path: 'cocktail-app',
+        component: CocktailAppComponent
       }
     ]
   },

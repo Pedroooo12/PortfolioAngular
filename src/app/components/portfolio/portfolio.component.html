@@ -1,5 +1,9 @@
 <section class="px-5 py-10 md:px-10 md:py-24 xl:px-36 text-white bg-black">
-  <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="center-center">
+  <div 
+  data-aos="fade-up" 
+  data-aos-duration="2000" 
+  data-aos-anchor-placement="top-bottom"
+  data-aos-easing="linear">
     <div>
       <h2 class="secondaryTitle bg-highlight3 p-12 text-center  bg-center bg-10%">
         Portfolio
@@ -21,6 +25,15 @@
       [description]="'Desarrollé una aplicación que convierte archivos JSON en interfaces TypeScript de forma automática, permitiendo al usuario cargar archivos o escribir el JSON directamente. <br> La herramienta genera las interfaces correspondientes, que pueden copiarse o descargarse con un nombre personalizado, agilizando el proceso de creación de tipados en TypeScript para desarrolladores.'"
       [href_github]="'https://github.com/Pedroooo12/AppJSON'"
       [tecnologies]="tecnologiesJson"></app-proyect>
+      <app-proyect 
+      [title]="'Cocktail Website'" 
+      [image]="'/assets/proyectoCocktail.png'" 
+      [href_proyect]="'https://newcocktailwebsite.netlify.app/'"
+      [href_url]="'/proyect/cocktail-app'"
+      [description]="'He desarrollado una aplicación que permite buscar cócteles, filtrarlos según sus ingredientes, generador de cocteles aletorios y demás funcionalidades. <br> Además, se trata de una aplicación progresiva, lo que significa que puede utilizarse sin conexión a internet y es posible descargarla para un acceso más conveniente.'"
+      [href_github]="'https://github.com/Pedroooo12/cocktailWebsite'"
+      [tecnologies]="tecnologiesCocktail"></app-proyect>
+      
     </div>
   </div>
 </section>

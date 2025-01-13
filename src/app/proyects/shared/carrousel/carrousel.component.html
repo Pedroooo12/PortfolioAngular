@@ -1,11 +1,11 @@
 
     <div id="default-carousel" class="w-full relative hidden md:block" data-carousel="slide">
         <!-- Carousel wrapper -->
-        <div id="div_img" class="relative overflow-hidden md:h-96 hidden md:block rounded-sm">
+        <div id="div_img" class="relative overflow-hidden md:h-[500px] hidden md:block rounded-sm">
             <div *ngFor="let image of images; let i = index" 
                 [ngClass]="{'hidden': currentIndex !== i, 'duration-700 ease-in-out': true}" 
                 data-carousel-item>
-                <img [src]="image" class="absolute block w-full h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img [src]="image" class="absolute block w-full h-[500px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
         </div>
         <!-- Slider indicators -->
