@@ -1,0 +1,18 @@
+<div class="flex flex-col lg:flex-row">
+  <app-sidebar  
+  [title]="'RRhh Panel.'" 
+  [description]="'Esta aplicación permite registrar jornadas laborales, donde los usuarios marcan su hora de entrada y salida de forma sencilla. Los administradores pueden gestionar usuarios, consultar asistencias y visualizar salarios desde un panel centralizado. Además, cuenta con un sistema de autenticación basado en JWT para un acceso seguro y personalizado.'"
+  [navigation]="navigation" 
+  [tecnologies]="tecnologies"></app-sidebar>
+
+<!-- Contenido principal -->
+<div class="flex-1 lg:ml-72 px-6 md:p-5 h-full bg-secondary">
+    <app-section-login-rrhh></app-section-login-rrhh>
+    <app-section-admin-panel></app-section-admin-panel>
+    <app-section-admin-create-user></app-section-admin-create-user>
+    <app-section-list-employees-rrhh></app-section-list-employees-rrhh>
+    <app-section-assists-rrhh></app-section-assists-rrhh>
+    <app-section-user-rrhh></app-section-user-rrhh>
+    <app-btnBack></app-btnBack>
+</div>
+</div>

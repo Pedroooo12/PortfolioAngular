@@ -3,6 +3,7 @@ import { ToDoAppComponent } from './pages/toDoApp/toDoApp.component';
 import { ProyectsComponent } from './proyects.component';
 import { JsonAppComponent } from './pages/jsonApp/jsonApp.component';
 import { CocktailAppComponent } from './pages/cocktailApp/cocktailApp.component';
+import { RrhhAppComponent } from './pages/rrhhApp/rrhhApp.component';
 
 const routes: Routes = [
   { 
@@ -23,6 +24,11 @@ const routes: Routes = [
         title: 'CocktailApp',
         path: 'cocktail-app',
         component: CocktailAppComponent
+      },
+      {
+        title: 'RRHHApp',
+        path: 'rrhh-app',
+        component: RrhhAppComponent
       }
     ]
   },

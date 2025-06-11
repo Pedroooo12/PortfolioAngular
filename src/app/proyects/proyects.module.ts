@@ -26,6 +26,13 @@ import { SectionGlassCocktailComponent } from './components-cocktail/section-gla
 import { SectionRandomCocktailComponent } from './components-cocktail/section-random-cocktail/section-random-cocktail.component';
 import { SectionDrinkCocktailComponent } from './components-cocktail/section-drink-cocktail/section-drink-cocktail.component';
 import { SectionIntegrationCocktailComponent } from './components-cocktail/section-integration-cocktail/section-integration-cocktail.component';
+import { RrhhAppComponent } from './pages/rrhhApp/rrhhApp.component';
+import { SectionLoginRrhhComponent } from './components-rrhh/section-login-rrhh/section-login-rrhh.component';
+import { SectionAdminPanelComponent } from './components-rrhh/section-admin-panel/section-admin-panel.component';
+import { SectionAdminCreateUserComponent } from './components-rrhh/section-admin-create-user/section-admin-create-user.component';
+import { SectionListEmployeesRrhhComponent } from './components-rrhh/section-list-employees-rrhh/section-list-employees-rrhh.component';
+import { SectionAssistsRrhhComponent } from './components-rrhh/section-assists-rrhh/section-assists-rrhh.component';
+import { SectionUserRrhhComponent } from './components-rrhh/section-user-rrhh/section-user-rrhh.component';
 
 @NgModule({
   imports: [
@@ -57,7 +64,14 @@ import { SectionIntegrationCocktailComponent } from './components-cocktail/secti
     JsonAppComponent,
     SidebarComponent,
     SectionMainJsonComponent,
-    SectionFunctionalitiesComponent
+    SectionFunctionalitiesComponent,
+    RrhhAppComponent,
+    SectionLoginRrhhComponent,
+    SectionAdminPanelComponent,
+    SectionAdminCreateUserComponent,
+    SectionListEmployeesRrhhComponent,
+    SectionAssistsRrhhComponent,
+    SectionUserRrhhComponent
   ]
 })
 export class ProyectsModule { }
